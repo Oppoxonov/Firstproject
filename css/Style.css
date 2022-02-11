@@ -1,0 +1,551 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 1300;
+    height: 9000px;
+    background: #FFFFFF;
+}
+#Cenario {
+    position: absolute;
+    height: 96px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+
+    background: #FFD1DD;
+    border-radius: 0px;
+}
+#Cenario .titlee {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;   
+    padding: 32px 80px;
+}
+#Cenario .cenariooo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.try {
+    background-color: blue;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+}
+.log {
+    background-color: white;
+    padding: 8px 10px;
+    border: none;
+}
+#backk {
+    position: absolute;
+    height: 1000px;
+    left: 0%;
+    right: 0%;
+    top: 96px;
+    background: #FFD1DD;
+    box-shadow: 0px 5px 32px rgba(0, 0, 0, 0.04);
+    border-radius: 0px;
+}
+#backk .back-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2.496px;
+    color: #5E4DCC;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    row-gap: 39px;
+}
+#backk .back-1 .back-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #FFFFFF;
+
+}
+#backk .back-1 h1 {
+    font-size: 79px;
+    line-height: 83px;
+    
+}
+#backk .img1 {
+    position: absolute;
+    width: 288px;
+    left: 16px;
+    top: 593px;
+    right: 1136px;
+}
+#backk .img2  {
+    position: absolute;
+    width: 850px;
+    height: 717px;
+    left: 295px;
+    top: 679px;
+    right: 295px;
+}
+#backk .img3 {
+    position: absolute;
+    width: 250px;
+    left: 1097px;
+    top: 488px;
+    right: 93px;
+}
+.clr {
+    clear: both;
+}
+.rect {
+    position: relative;
+    height: 500px;
+    left: 0%;
+    right: 0%;
+    top: 1240px;
+    align-items: center;
+    background: #fff;
+    border-radius: 0px;
+}
+.rect .salom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    row-gap: 20px;
+    border: 10px solid whitesmoke;
+    border-width: 20p;
+     
+}
+.rect .salom .aaaa {
+    position: absolute;
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    left: 1220px;
+    right: 20px;
+    top: 40px;
+}
+
+.rect .salom .bbbb  {
+    position: absolute;
+    background-color: #FFD1DD;
+    width: 150px;
+    height: 150px;
+    bottom:  20px;
+
+    
+    
+}
+.rect .salom .cccc {
+    position: absolute;
+    background-color: blue;
+    width: 75px;
+    height: 75px;
+    left: 30px;
+    bottom: 130px;
+}
+
+.rect .salom .dddd {
+    position: absolute;
+    background-color: #FFD1DD;
+    width: 100px;
+    height: 100px;
+    right: 15px;
+    left: 1250px;
+    top: 0px;
+    
+    
+}
+.rect .salom .ffff {
+    position: absolute;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    align-content: center;
+    border: none;
+       
+}
+.rect .salom .ffff p {
+    padding: 0 120px;
+    align-content: center;
+    border: 20px solid whitesmoke;
+}
+.maker {
+    position: absolute;
+    height: 500px;
+    left: 0%;
+    right: 0%;
+    top: 1740px;
+    align-items: center;
+    background: #fff;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 20px;
+
+}
+ .maker .maker1 {
+     display: flex;
+     flex-direction: column;
+     align-items: left;
+     row-gap: 10px;
+ }
+ .maker1 h2 {
+    font-size: 79px;
+    line-height: 83px;
+    color: #5E4DCC;
+ }
+ .simp {
+    position: absolute;
+    height: 500px;
+    left: 1%;
+    right: 0%;
+    top: 2340px;
+    align-items: center;
+    background: #fff;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 20px;
+
+ }
+ .on {
+    position: absolute;
+    height: 20px;
+    left: 10%;
+    right: 0%;
+    top: 2940px;
+    align-content: center;
+    background: #fff;
+    border-radius: 0px;
+    font-size: 79px;
+    line-height: 83px;
+    color: #5E4DCC; ;
+
+ }
+ .your {
+    position: absolute;
+    height: 500px;
+    left: 1%;
+    right: 0%;
+    top: 3140px;
+    align-items: center;
+    background: #fff;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 20px;
+     
+ }
+ .define {
+     
+    position: absolute;
+    height: 500px;
+    left: 1%;
+    right: 0%;
+    top: 3660px;
+    align-items: center;
+    background: #fff;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 100px;
+ }
+ .what {
+     
+    position: absolute;
+    height: 500px;
+    left: 1%;
+    right: 0%;
+    top: 4180px;
+    align-items: center;
+    background: #fff;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 100px;
+ }
+ .youu {
+     
+    position: absolute;
+    height: 500px;
+    left: 1%;
+    right: 0%;
+    top: 4700px;
+    align-items: center;
+    background: #fff;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 100px;
+ }
+ .sometime {
+    position: absolute;
+    height: 500px;
+    left: 1%;
+    right: 0%;
+    top: 5220px;
+    align-items: center;
+    background: #fff;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 100px;
+ }
+.prepare {
+    position: absolute;
+    height: 500px;
+    left: 1%;
+    right: 0%;
+    top: 5740px;
+    align-items: center;
+    background: #fff;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 100px;
+}
+.many {
+    position: relative;
+    height: 400px;
+    top: 5900px;
+    background: #fff;
+    
+}
+.many .many5 {
+    position: absolute;
+    height: 300px;
+    width: 900px;
+    left: 200px;
+    right:200px;
+    top: 130px;
+}
+.many .many1 {
+    position: absolute;
+    bottom: 130px;
+    left: 20px;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+
+}
+.many .many2 {
+    
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    height: 150px;
+    width: 150px;
+    background-color: tomato;
+}
+.many .many3 {
+    
+    position: absolute;
+    top: 0px;
+    right:  20px;
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+}
+.many .many4 {
+    
+    position: absolute;
+    top: 100px;
+    right:  0px;
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+}
+.dolor  {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    height: 1000px;
+    top: 6000px;
+    align-items: center;
+    background: #fff;
+    border-radius: 0px;
+}
+.dolor h1 {
+    color: #5E4DCC;
+}
+.dolor .whyc{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 20px;
+    text-align: center;
+    left: 20px;
+    right: 10px;
+
+} 
+.dolor .whyc .whyc1 h3{
+    color: #5E4DCC;
+}
+.get {
+    position: relative;
+    height: 200px;
+    top: 5500px;
+    align-items: center;
+    background: #fff;
+    text-align: center;
+    color: #5E4DCC;
+}
+.sing {
+    position: relative;
+    height: 500px;
+    top: 5450px;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    column-gap: 10px;
+    text-align: center;
+
+}
+.sing .singg {
+    position: relative;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 20px;
+    text-align: center;
+}
+.sing .singg h2 {
+    color: #5E4DCC;
+}
+.connect {
+    position: relative;
+    left: 10px;
+    top: 5450px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 20px;
+    text-align: center;
+    
+}
+.connect .conect h2 {
+    color: #5E4DCC;
+}
+.instant  {
+    position: relative;
+    left: 10px;
+    top: 5550px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 20px;
+    text-align: center;
+}
+.instant .instant1 h2 {
+    color: #5E4DCC;
+
+}
+.ready {
+    position: relative;
+    top: 5600px;
+    align-items: center;
+    background: #fff;
+    text-align: center;
+    
+}
+.ready h1 {
+    color: #5E4DCC;
+}
+.singup {
+    position: relative;
+    height: 150px;
+    width: 1250px;
+    top: 5630px;
+    padding: 20px 20px;
+    left: 20px;
+    right: 20px;
+    border-radius: 10px;
+    background-color: palevioletred;
+    color: #5E4DCC;
+}
+.singup .singup1 {
+    position: absolute;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.singup .singup1 .singup3  {
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 20px;
+}
+.singup .singup1 .singup3 button {
+    width: 150px;
+    height: 40px;
+    top: 20px;
+    
+}
+.mansan  {
+    position: relative;
+    height: 1000px;
+    top: 5750px;
+    background-color: darkblue;
+    color: white;
+}
+.mansan .mansan3 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    column-gap: 10px;
+    align-items: left;
+    top: 50px;
+    left: 0px;
+}
+.mansan .mansan1 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 10px;
+    top: 80px;
+    
+}
+.mansan .mansan1 .mansan2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    row-gap: 10px;
+    left: 50px;
+}
+.mansan .finish {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 20px;
+    width: 50px;
+    left: 750px;
+    top: 100px;
+}
